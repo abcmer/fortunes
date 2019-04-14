@@ -1,24 +1,32 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Cookie from "./Cookie";
+import "./App.css";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      fortunes: [
+        "So toss away stuff you don't need in the end, but keep what's important and know who's your friend",
+        "Don't want to be a climber reaching for the top. Don't want to be anything where I don't know when to stop."
+      ],
+      currentFortune: "Click the cookie, read your fortune."
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick() {
+    const fortuneIndex = Math.floor(Math.random() * this.state.fortunes.length);
+    this.setState({
+      currentFortune: this.state.fortunes[fortuneIndex]
+    });
+  }
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <Cookie handleClick={this.handleClick} />
+          <p>{this.state.currentFortune}</p>
         </header>
       </div>
     );
