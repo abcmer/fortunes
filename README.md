@@ -1,6 +1,6 @@
 # fortunes
 
-Read all the fortunes you desire, without getting full.
+All the fortunes you desire, without getting full.
 
 ## Getting Started
 
