@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/609af322-0cf3-406a-bffc-fec934ea1a82/deploy-status)](https://app.netlify.com/sites/fortunes-abcmer/deploys)
+
 # fortunes
 
 All the fortunes you desire, without getting full.
