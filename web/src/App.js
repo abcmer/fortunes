@@ -12,7 +12,8 @@ class App extends Component {
         "You don't have to be faster than the bear, you just have to be faster than the slowest guy.",
         "It's easy sometimes when you just coast along, but like it or not something always seems to go wrong",
         "The rest of your lifetime devoid of a care, if you keep your eyes open you may find yourself there",
-        "Once in a while you get shown the light in the strangest of places if you look at it right"
+        "Once in a while you get shown the light in the strangest of places if you look at it right",
+        "He who questions training, only trains himself at asking questions"
       ],
       currentFortune: "Click the cookie, read your fortune."
     };
