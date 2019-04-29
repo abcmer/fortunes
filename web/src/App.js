@@ -13,7 +13,8 @@ class App extends Component {
         "It's easy sometimes when you just coast along, but like it or not something always seems to go wrong",
         "The rest of your lifetime devoid of a care, if you keep your eyes open you may find yourself there",
         "Once in a while you get shown the light in the strangest of places if you look at it right",
-        "And then one day you find to your intense delight, that three wrong turns can really make a right"
+        "And then one day you find to your intense delight, that three wrong turns can really make a right",
+        "He who questions training, only trains himself at asking questions"
       ],
       currentFortune: "Click the cookie, read your fortune."
     };
