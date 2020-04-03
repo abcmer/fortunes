@@ -13,7 +13,6 @@ These instructions will get you a copy of the game up and running on your local 
 What things you need to install the software and how to install them
 
 - [NodeJS](https://nodejs.org/en/)
-- [Yarn](https://yarnpkg.com/en/)
 
 ### Installing
 
@@ -27,14 +26,14 @@ cd fortunes
 Install node dependencies.
 
 ```
-yarn install
+npm i
 ```
 
 Start the app locally.
 
 ```
 
-yarn start
+npm start
 
 ```
 
